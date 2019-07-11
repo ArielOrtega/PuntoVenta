@@ -25,15 +25,17 @@ namespace PuntoVenta.Model.Domain
         bool activo;
         int numeroCuentaBancaria;
         String nombreBancoCuenta;
+        List<GruposAcceso> gruposAcceso;
 
         public Empleado()
         {
             compania = new Compania();
             departamento = new Departamento();
             puestoTrabajo = new PuestoTrabajo();
+            gruposAcceso = new List<GruposAcceso>();
         }
 
-        public Empleado(int id, string apellidos, string nombre, int numeroIdenficacion, string loginName, string password, string estadoCivil, string direccion, string ciudad, string nacionalidad, string telefono, string email, Compania compania, Departamento departamento, PuestoTrabajo puestoTrabajo, string photo, bool activo, int numeroCuentaBancaria, string nombreBancoCuenta)
+        public Empleado(int id, string apellidos, string nombre, int numeroIdenficacion, string loginName, string password, string estadoCivil, string direccion, string ciudad, string nacionalidad, string telefono, string email, Compania compania, Departamento departamento, PuestoTrabajo puestoTrabajo, string photo, bool activo, int numeroCuentaBancaria, string nombreBancoCuenta, List<GruposAcceso> gruposAcceso)
         {
             this.id = id;
             this.apellidos = apellidos;
@@ -54,6 +56,7 @@ namespace PuntoVenta.Model.Domain
             this.activo = activo;
             this.numeroCuentaBancaria = numeroCuentaBancaria;
             this.nombreBancoCuenta = nombreBancoCuenta;
+            this.gruposAcceso = gruposAcceso;
         }
 
         public int Id { get => id; set => id = value; }
@@ -62,7 +65,7 @@ namespace PuntoVenta.Model.Domain
         public int NumeroIdenficacion { get => numeroIdenficacion; set => numeroIdenficacion = value; }
         public string LoginName { get => loginName; set => loginName = value; }
         public string Password { get => password; set => password = value; }
-        public string Estado_civil { get => estadoCivil; set => estadoCivil = value; }
+        public string EstadoCivil { get => estadoCivil; set => estadoCivil = value; }
         public string Direccion { get => direccion; set => direccion = value; }
         public string Ciudad { get => ciudad; set => ciudad = value; }
         public string Nacionalidad { get => nacionalidad; set => nacionalidad = value; }
@@ -75,5 +78,6 @@ namespace PuntoVenta.Model.Domain
         public bool Activo { get => activo; set => activo = value; }
         public int NumeroCuentaBancaria { get => numeroCuentaBancaria; set => numeroCuentaBancaria = value; }
         public string NombreBancoCuenta { get => nombreBancoCuenta; set => nombreBancoCuenta = value; }
+        public List<GruposAcceso> GruposAcceso { get => gruposAcceso; set => gruposAcceso = value; }
     }
 }

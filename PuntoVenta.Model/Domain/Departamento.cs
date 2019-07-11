@@ -8,7 +8,7 @@ namespace PuntoVenta.Model.Domain
     {
         int id;
         String nombre;
-        String cantidadEmpleados;
+        int cantidadEmpleados;
         Compania compania;
 
         public Departamento()
@@ -16,7 +16,7 @@ namespace PuntoVenta.Model.Domain
             compania = new Compania();
         }
 
-        public Departamento(int id, string nombre, string cantidadEmpleados, Compania compania)
+        public Departamento(int id, string nombre, int cantidadEmpleados, Compania compania)
         {
             this.id = id;
             this.nombre = nombre;
@@ -26,7 +26,7 @@ namespace PuntoVenta.Model.Domain
 
         public int Id { get => id; set => id = value; }
         public string Nombre { get => nombre; set => nombre = value; }
-        public string CantidadEmpleados { get => cantidadEmpleados; set => cantidadEmpleados = value; }
+        public int CantidadEmpleados { get => cantidadEmpleados; set => cantidadEmpleados = value; }
         public Compania Compania { get => compania; set => compania = value; }
     }
 }

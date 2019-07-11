@@ -1,0 +1,6 @@
+C:\Users\Pablo\Desktop\ProyectoVentas\PuntoVenta\PuntoVenta.Model\bin\Debug\netstandard2.0\PuntoVenta.Model.deps.json
+C:\Users\Pablo\Desktop\ProyectoVentas\PuntoVenta\PuntoVenta.Model\bin\Debug\netstandard2.0\PuntoVenta.Model.dll
+C:\Users\Pablo\Desktop\ProyectoVentas\PuntoVenta\PuntoVenta.Model\obj\Debug\netstandard2.0\PuntoVenta.Model.csprojAssemblyReference.cache
+C:\Users\Pablo\Desktop\ProyectoVentas\PuntoVenta\PuntoVenta.Model\obj\Debug\netstandard2.0\PuntoVenta.Model.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\Desktop\ProyectoVentas\PuntoVenta\PuntoVenta.Model\obj\Debug\netstandard2.0\PuntoVenta.Model.AssemblyInfoInputs.cache
+C:\Users\Pablo\Desktop\ProyectoVentas\PuntoVenta\PuntoVenta.Model\obj\Debug\netstandard2.0\PuntoVenta.Model.AssemblyInfo.cs
